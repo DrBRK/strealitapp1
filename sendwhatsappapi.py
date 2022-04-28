@@ -29,7 +29,7 @@ if uploaded_file:
                str5=str(x[0])
                str6="college fees due amount is"
                str7=str(x[3])
-               str8="<br>for the Final year  please clear the due amount on or before 30-4-2022. %0a Principal , SWARNANDHRA COLLEGE OF ENGINEERING AND TECHNOLOGY.Thank you\""
+               str8=" %0afor the Final year  please clear the due amount on or before 30-4-2022. %0a Principal , SWARNANDHRA COLLEGE OF ENGINEERING AND TECHNOLOGY.Thank you\""
                result=str1+str2+str3+str5+str6+str7+str8
                #print(result)
                res = requests.get(result)
